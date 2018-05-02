@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Silas is turning 1,000</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=BioRhyme|Creepster" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Creepster|Luckiest+Guy" rel="stylesheet">
+  <style>
+
+/* font-family: 'Luckiest Guy', cursive;
+font-family: 'Abril Fatface', cursive; */
+    body {
+      font-family: 'Luckiest Guy', cursive;
+      color: #FFF;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .77);
+      background: linear-gradient(270deg, #34d6ac, #f2ad42, #cca3ff);
+      background-size: 600% 600%;
+
+      -webkit-animation: rotBg 30s ease infinite;
+      -moz-animation: rotBg 30s ease infinite;
+      animation: rotBg 30s ease infinite;
+    }
+
+    @-webkit-keyframes rotBg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes rotBg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes rotBg {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 2;
+      padding: 1vw;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+      font-weight: normal;
+    }
+    
+    h1, h2, .creep {
+      font-family: 'Creepster', cursive;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    a, small, p {
+      transition: all ease 200ms;
+    }
+
+    h1 {
+      font-size: 15vw;
+    }
+
+    h2 {
+      font-size: 12.5vw;
+    }
+
+    h3 {
+      font-size: 10vw;
+    }
+
+    h4 {
+      font-size: 7.5vw;
+    }
+
+    small {
+      font-size: 5vw;
+      font-family: 'Helvetica', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: .9;
+      display: block;
+      padding-top: 3vh;
+      clear: both;
+    }
+
+    canvas {
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      opacity: .5;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+      border-bottom: 2px dashed blue;
+    }
+
+    a:hover {
+      color: lime;
+      border-color: lime;
+    }
+
+    .gif-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media only screen and (min-device-width : 768px) {
+      .gif-wrapper {
+        flex-flow: row nowrap;
+      }
+    }
+
+    .gif-wrapper img {
+      height: auto;
+      max-width: 100%;
+      height: 100%;
+      width: 100%;
+    }
+
+    @media only screen and (min-device-width : 768px) {
+      .gif-wrapper img {
+        width: 50%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+      <h1>Silas is turning 1,000 <small>or some shit, I dunno</small></h1>
+
+      <div class="gif-wrapper">
+        <img src="https://media.giphy.com/media/3oEhmCmDzqV12kkwdW/giphy.gif">
+        <img src="https://media.giphy.com/media/xT39DfJELYu8Ch5zq0/giphy.gif">
+      </div>
+
+      <!-- <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/3oEhmCmDzqV12kkwdW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+
+      <h2>Come party down at party town. <small>just this once, c'mon</small></h2>
+
+      <div class="gif-wrapper">
+        <img src="https://media.giphy.com/media/FjeGBljESVAzu/giphy.gif">
+        <img src="https://media.giphy.com/media/ZZOk6QUSiwk1i/giphy.gif">
+      </div>
+
+      <h3>Saturday May 26th, 2018:<br>
+        <a href="https://www.google.com/maps/place/23+Nottingham+Ct,+Alameda,+CA+94502/@37.7454207,-122.2522232,17z/data=!3m1!4b1!4m5!3m4!1s0x808f841db4c15979:0x2b81310bfcb22777!8m2!3d37.7454207!4d-122.2500345" target="_blank">BBQ Party</a>.
+      <small>this is Amanda's house</small></h3>
+
+      <h3>Sunday May 27th:<br>
+        <a href="https://www.google.com/maps/place/1716+Bay+St,+Alameda,+CA+94501/@37.7765376,-122.2663913,17z/data=!3m1!4b1!4m5!3m4!1s0x808f86d35e812461:0xe0dd589edcc2943d!8m2!3d37.7765376!4d-122.2642026" target="_blank">Games</a>.
+        <small>this is our house</small></h3>
+
+      <div class="gif-wrapper">
+        <img src="https://media.giphy.com/media/PW4UkMIXpsp1e/giphy.gif">
+        <img src="https://media3.giphy.com/media/SCK6AokQxsIeY/giphy.gif">
+      </div>
+
+      <h4>Bring anything you want to drink, snacks, and yourself</h4>
+
+      <h4>Your'e welcome to crash, encouraged to hang. Bring Magic Cards, consoles, or even bring your (PC if you're so inclined).
+        <small>we miss your sweet, sweet lil faces</small>
+      </h4>
+
+      <h4>Text me (Casey) with any questions <small>and I'll send you an eggplant emoji</small></h4>
+
+      <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/f-jN3vH26NQ' frameborder='0' allowfullscreen></iframe></div>
+
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script>
+      let W = window.innerWidth;
+      let H = window.innerHeight;
+      const canvas = document.getElementById("canvas");
+      const context = canvas.getContext("2d");
+      const maxConfettis = 150;
+      const particles = [];
+
+      const possibleColors = [
+        "DodgerBlue",
+        "OliveDrab",
+        "Gold",
+        "Pink",
+        "SlateBlue",
+        "LightBlue",
+        "Gold",
+        "Violet",
+        "PaleGreen",
+        "SteelBlue",
+        "SandyBrown",
+        "Chocolate",
+        "Crimson"
+      ];
+
+      function randomFromTo(from, to) {
+        return Math.floor(Math.random() * (to - from + 1) + from);
+      }
+
+      function confettiParticle() {
+        this.x = Math.random() * W; // x
+        this.y = Math.random() * H - H; // y
+        this.r = randomFromTo(11, 33); // radius
+        this.d = Math.random() * maxConfettis + 11;
+        this.color =
+          possibleColors[Math.floor(Math.random() * possibleColors.length)];
+        this.tilt = Math.floor(Math.random() * 33) - 11;
+        this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
+        this.tiltAngle = 0;
+
+        this.draw = function() {
+          context.beginPath();
+          context.lineWidth = this.r / 2;
+          context.strokeStyle = this.color;
+          context.moveTo(this.x + this.tilt + this.r / 3, this.y);
+          context.lineTo(this.x + this.tilt, this.y + this.tilt + this.r / 5);
+          return context.stroke();
+        };
+      }
+
+      function Draw() {
+        const results = [];
+
+        // Magical recursive functional love
+        requestAnimationFrame(Draw);
+
+        context.clearRect(0, 0, W, window.innerHeight);
+
+        for (var i = 0; i < maxConfettis; i++) {
+          results.push(particles[i].draw());
+        }
+
+        let particle = {};
+        let remainingFlakes = 0;
+        for (var i = 0; i < maxConfettis; i++) {
+          particle = particles[i];
+
+          particle.tiltAngle += particle.tiltAngleIncremental;
+          particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
+          particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+
+          if (particle.y <= H) remainingFlakes++;
+
+          // If a confetti has fluttered out of view,
+          // bring it back to above the viewport and let if re-fall.
+          if (particle.x > W + 30 || particle.x < -30 || particle.y > H) {
+            particle.x = Math.random() * W;
+            particle.y = -30;
+            particle.tilt = Math.floor(Math.random() * 10) - 20;
+          }
+        }
+
+        return results;
+      }
+
+      window.addEventListener(
+        "resize",
+        function() {
+          W = window.innerWidth;
+          H = window.innerHeight;
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        },
+        false
+      );
+
+      // Push new confetti objects to `particles[]`
+      for (var i = 0; i < maxConfettis; i++) {
+        particles.push(new confettiParticle());
+      }
+
+      // Initialize
+      canvas.width = W;
+      canvas.height = H;
+      Draw();
+
+    </script>
+</body>
+</html>
